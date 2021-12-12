@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: capitalize;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    text-decoration: none;
+    display: inline;
+} 
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid black;
+    margin: 1rem;
+}
+
+.name h1{
+    font-size: 4rem;
+}
+
+.heading{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 1rem;
+}
+
+.icons{
+     font-family: 'Roboto Condensed', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: black;
+}
+
+.icons i{
+    margin: 0.2rem;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.college h2 , .twelth h2 , .tenth h2{
+    font-size: 1.5rem;
+    display: block;
+    margin: 0.3rem;
+}
+
+.college h4 , .twelth h4 , .tenth h4{
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin: 0.3rem;
+    display: block;
+}
+.college  , .twelth  , .tenth{
+    max-width: 50vw;
+    margin: 1rem;
+    border-bottom: 1px solid black;
+}
+
+
+.skills h1 , .education h1 , .por h1 , .projects h1{
+    font-size: 2rem;
+}
+
+.proficient , .familiar{
+    margin: 1rem;
+}
+
+.proficient h2 , .familiar h2{
+    font-size: 1.2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: capitalize;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.proficient h3 , .familiar h3{
+    padding-left: 1rem;
+    font-weight: 300;
+}
+
+.por h3{
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+
+.por h5{
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.por h3 , .por h5{
+    display:  block;
+    font-weight: 300;
+}
+
+.projects{
+    min-width: 40vw;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+
+.project{
+    margin: 1rem 4rem;
+}
+
+.project h2 , .project h3 , .project h5{
+    display: block;
+}
+
+.title a{
+    color: black;
+    font-size: 1rem;
+}
+.project h2{
+    font-size: 1.5rem;
+}
+
+.subtitle{
+    padding-left: 1rem;
+}
+
+.subinfo{
+    font-weight: 300;
+    padding-left: 1.5rem;
+}
+
